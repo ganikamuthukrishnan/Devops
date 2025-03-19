@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "ganikam/my-app"
+        IMAGE_NAME = "ganika020505/my-app"
         REGISTRY = "docker.io"
-        DOCKER_CREDENTIALS_ID = "ganikam"
+        DOCKER_CREDENTIALS_ID = "docker-hub"
         GITHUB_CREDENTIALS_ID = "git"
         APP_DIR = "/opt/docker-kec"
     }
