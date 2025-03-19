@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "ganikam/my-app"
         REGISTRY = "docker.io"
-        DOCKER_CREDENTIALS_ID = "Ganikam"
+        DOCKER_CREDENTIALS_ID = "ganikam"
         GITHUB_CREDENTIALS_ID = "git"
         APP_DIR = "/opt/docker-kec"
     }
